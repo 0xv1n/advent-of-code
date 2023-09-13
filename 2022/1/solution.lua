@@ -1,5 +1,5 @@
 -- Load the file
-local file = io.open("puzzleinput.txt", "r")
+local file = io.open("input.txt", "r")
 if not file then
     error("Failed to open file")
 end

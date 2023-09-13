@@ -1,6 +1,6 @@
 import os
 
-with open(os.path.dirname(__file__) + "/puzzleinput.txt") as f:
+with open(os.path.dirname(__file__) + "/input.txt") as f:
     input = f.readlines()
 
 calories = [0]
@@ -8,7 +8,7 @@ calories = [0]
 cals = 0
 i = 0
 for line in input:
-    if line != '\n':
+    if line != "\n":
         cals += int(line)
     else:
         calories.insert(i, cals)
